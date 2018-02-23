@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style type="text/css">
+    #a{
+      -webkit-animation: background 10s ease infinite;
+      animation: background 10s ease infinite;  
+      background: url(./img/zenith_front_png.png) no-repeat ;
+      background-size: cover;
+    }
+  
+
+
+    @-webkit-keyframes background {
+      0% { background-color: #f99; }
+      25% { background-color: #9f9; }  
+      50% { background-color: #99f; }
+      100% { background-color: #f99; }
+    }
+
+    @keyframes background {
+      0% { background-color: #f99; }
+      25% { background-color: #9f9; }  
+      50% { background-color: #99f; }
+      100% { background-color: #f99; }
+    }
+
+    h3{
+      background-color:black;
+      text-decoration-color: : white;
+    }
+    .rotate{
+      transform: rotate(315deg);
+       max-width: 500px; overflow: hidden;
+
+    }
+    svg * {
+        transform-origin: center; /* or transform-origin: 50% */
+        transform-box: fill-box;
+        color: black;
+      }
+      
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+}
+     nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #000;
+}
+ nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  color: blue;
+  background: #000;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+  </style>
+  </head>
+  <body>
+    <section id="a" >
+       <nav class="stroke" style="text-align: right; font-family: arial ">
+        <ul>
+          <li><a href="#" class="nav-link"  >Home</a></li>
+         <li> <a href="#C" class="nav-link" >About</a></li>
+          <li><a href="#" class="nav-link" >Event</a></li>
+          <li><a href="#" class="nav-link" >Sponser</a><li>
+         <li> <a href="#" class="nav-link" >Prizes</a></li>
+          <li><a href="#" class="nav-link" >Venue</a></ul>
+       </nav>
+       <div class="" style="font-family:gillsans ;" >
+              <center><img src="./img/logo_cover.png">
+           <div class="col-sm-6"><center><h2 style="color: #6d4343">24th February 2018</h2></center>
+           </div>
+           <div class="col-sm-6" style="padding-bottom: 250px"><h6 style="font-size:x-large; color: #6d4343;">
+              We are travelling around the globe to get companies, knowledge and talent. </h6></center>
+           </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  
+
+
+  <div class="row" id="C" style="background-color:#080808 ; margin-right: 0px;margin-top:-10px " >
+      <div class="col-sm-6" style="margin-bottom: 150px">
+           <img src="C:\Users\DELL\Downloads\zenith_slide2_sidevector.png" width="60%" height="60%"><br><br><br><br><br><br><br><br><br><br>
+           
+      </div>
+      <div class="col-sm-5" style="color: white; margin-top: 200px">
+           <h1 style="font-size: 40px ;margin-left: -50px"><center><strong>CODE EAT CODE</strong></center></h1><br>
+           <p style="font-size:15px; font-family: gillsans ; ">
+      Who wouldn't like to have juice in one hand, bag of chips in another and computer in lap, going dusk to dawn, eating and nerding out on your laptop. So we are back with a combo pack of all such stuff for our foodie coders.
+           </p>
+      
+             </div>
+  </div>
+  
+  
+
+
+  <div class="row" id="d" style="margin-right: 0px; margin-left: 30px;">
+     <div class="col-sm-7">
+          <h1 style="font-size: 40px ;margin-top: 30px;margin-left:0px"><strong>Don’t let your time fly!</strong></h1><br>
+          <p style="font-size:15px;font-family: gillsans ;">
+
+The amount of time it takes for a
+dependent with the time left in
+minute to<br> go by is proportionally
+Zenith’s final pitching.
+
+      
+         
+     </div>
+     <div class="col-sm-5"  id="image" style="margin-bottom: 50px">
+          <img src="C:\Users\DELL\Downloads\WeChat-Tuzki-Alarm-Sticker.gif " align="right" width="93%" style="margin-top: 180px;margin-right: -13px">
+     </div>
+     
+  </div>
+
+
+  <div class="row" id="e" style="margin-right:10px; margin-left: 300px;margin-top: 150px" >
+  
+   <p style="font-size:50px;font-family: gillsans; text-align: right;"><strong>You know nothin’, Coder!<br></strong> - Stack Overflow</p></center>
+<img src="C:\Users\DELL\Downloads\Screen Shot 2018-02-13 at 6.37.03 PM.png" class="rotate" >
+
+  </div>
+
+    
+  </body>
+</html>
